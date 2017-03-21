@@ -1,4 +1,4 @@
 ##  learn UnderscoreJs
 ### add node dependence
-'npm init'
-'npm install underscore --save-dev'
+`npm init`
+`npm install underscore --save-dev`
