@@ -100,20 +100,27 @@ const doTest5 = (x) => {
   console.log('-------------------------')
 }
 const doTest6 = (x) => {
-    let select = _.where(testListObj, {
-      c: 3
-    })
-    let selectFirst = _.findWhere(testListObj, {
-      c: 3
-    })
-    console.log("select");
-    console.log(select)
-    console.log("selectFirst")
-    console.log(selectFirst)
-  }
-  // doTest1(1)
-  // doTest2(2)
-  // doTest3(3)
-  // doTest3(4)
-  // doTest5(5)
+  let select = _.where(testListObj, {
+    c: 3
+  })
+  let selectFirst = _.findWhere(testListObj, {
+    c: 3
+  })
+  console.log("select");
+  console.log(select)
+  console.log("selectFirst")
+  console.log(selectFirst)
+}
+const doTest7 = (x) => {
+  let
+
+
+}
+
+
+// doTest1(1)
+// doTest2(2)
+// doTest3(3)
+// doTest3(4)
+// doTest5(5)
 doTest6(6)
